@@ -529,13 +529,13 @@ namespace RogueOfTheDarkAges
 
             if (playerIsAttacking)
             {
-                attackerName = "You";
+                attackerName = "Player";
                 targetName = defender.Name;
             }
             else
             {
                 attackerName = "The " + attacker.Name;
-                targetName = "you";
+                targetName = "player";
             }
 
             if (defenderBlocked)
