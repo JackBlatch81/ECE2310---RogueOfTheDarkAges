@@ -612,12 +612,12 @@ namespace RogueOfTheDarkAges
                 if (playerIsAttacking)
                 {
                     counterAttackerName = "The " + defender.Name;
-                    counterTargetName = "you";
+                    counterTargetName = "player";
                     AddWarningLog(counterAttackerName + " counters and deals " + originalDamage + " damage to " + counterTargetName + "!");
                 }
                 else
                 {
-                    counterAttackerName = "You";
+                    counterAttackerName = "Player";
                     counterTargetName = attacker.Name;
                     AddVictoryLog(counterAttackerName + " counterattacks and deals " + originalDamage + " damage to " + counterTargetName + "!");
                 }
